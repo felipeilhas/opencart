@@ -1,7 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	color: #666; /* Altera a cor da fonte dos produtos e descrição */
+	color: #666; /* Altera a cor da fonte dos produtos e descriï¿½ï¿½o */
 	font-size: 12px;
 	line-height: 20px;
 	width: 100%;
@@ -73,7 +73,7 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #FF4500; /*cor */
+	background-color: #FF4500; /*cor laranja*/
 	/* background-image: linear-gradient(to bottom, #23a1d1, #1f90bb); */
 	background-repeat: repeat-x;
 }
@@ -106,7 +106,7 @@ div.required .control-label:before {
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
-	color: #000000; /* seleção do menu */
+	color: #000000; /* seleï¿½ï¿½o do menu */
 }
 #top-links .dropdown-menu a {
 	text-shadow: none;
@@ -313,7 +313,7 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #FF4500;  /*Altera a cor do roda pé*/
+	background-color: #FF4500;  /*Altera a cor do roda pï¿½*/
 	border-top: 1px solid #ddd;
 	color: #e2e2e2;
 }
