@@ -29,11 +29,11 @@ class ControllerCheckoutGuest extends Controller {
 			$data['firstname'] = '';
 		}
 
-		if (isset($this->session->data['guest']['lastname'])) {
+		/*if (isset($this->session->data['guest']['lastname'])) {
 			$data['lastname'] = $this->session->data['guest']['lastname'];
 		} else {
 			$data['lastname'] = '';
-		}
+		}*/
 
 		if (isset($this->session->data['guest']['email'])) {
 			$data['email'] = $this->session->data['guest']['email'];
@@ -165,9 +165,9 @@ class ControllerCheckoutGuest extends Controller {
 				$json['error']['firstname'] = $this->language->get('error_firstname');
 			}
 
-			if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
+			/*if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
 				$json['error']['lastname'] = $this->language->get('error_lastname');
-			}
+			}*/
 
 			if ((utf8_strlen($this->request->post['email']) > 96) || !filter_var($this->request->post['email'], FILTER_VALIDATE_EMAIL)) {
 				$json['error']['email'] = $this->language->get('error_email');
@@ -237,7 +237,7 @@ class ControllerCheckoutGuest extends Controller {
 
 			$this->session->data['guest']['customer_group_id'] = $customer_group_id;
 			$this->session->data['guest']['firstname'] = $this->request->post['firstname'];
-			$this->session->data['guest']['lastname'] = $this->request->post['lastname'];
+			//$this->session->data['guest']['lastname'] = $this->request->post['lastname'];
 			$this->session->data['guest']['email'] = $this->request->post['email'];
 			$this->session->data['guest']['telephone'] = $this->request->post['telephone'];
 
@@ -248,7 +248,7 @@ class ControllerCheckoutGuest extends Controller {
 			}
 
 			$this->session->data['payment_address']['firstname'] = $this->request->post['firstname'];
-			$this->session->data['payment_address']['lastname'] = $this->request->post['lastname'];
+			//$this->session->data['payment_address']['lastname'] = $this->request->post['lastname'];
 			$this->session->data['payment_address']['company'] = $this->request->post['company'];
 			$this->session->data['payment_address']['address_1'] = $this->request->post['address_1'];
 			$this->session->data['payment_address']['address_2'] = $this->request->post['address_2'];
