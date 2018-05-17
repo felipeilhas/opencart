@@ -9,7 +9,7 @@ $_['text_your_details']  = 'Caso deseje, modifique as informações da sua conta
 $_['text_success']       = 'As informações da sua conta foram modificadas.';
 
 // Entry
-$_['entry_firstname']    = 'Nome';
+$_['entry_firstname']    = 'Razão Social/Nome';
 $_['entry_lastname']     = 'Sobrenome';
 $_['entry_email']        = 'E-mail';
 $_['entry_telephone']    = 'Telefone';

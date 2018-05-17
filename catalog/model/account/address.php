@@ -54,8 +54,8 @@ class ModelAccountAddress extends Model {
 
 			$address_data = array(
 				'address_id'     => $address_query->row['address_id'],
-				//'firstname'      => $address_query->row['firstname'],
-				//'lastname'       => $address_query->row['lastname'],
+				'firstname'      => $address_query->row['firstname'],
+				'lastname'       => $address_query->row['lastname'],
 				'company'        => $address_query->row['company'],
 				'address_1'      => $address_query->row['address_1'],
 				'address_2'      => $address_query->row['address_2'],
@@ -110,8 +110,8 @@ class ModelAccountAddress extends Model {
 
 			$address_data[$result['address_id']] = array(
 				'address_id'     => $result['address_id'],
-				//'firstname'      => $result['firstname'],
-				//'lastname'       => $result['lastname'],
+				'firstname'      => $result['firstname'],
+				'lastname'       => $result['lastname'],
 				'company'        => $result['company'],
 				'address_1'      => $result['address_1'],
 				'address_2'      => $result['address_2'],

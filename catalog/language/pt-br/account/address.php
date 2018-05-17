@@ -13,7 +13,7 @@ $_['text_delete']        = 'O endereço foi excluído.';
 $_['text_empty']         = 'Você não possui endereços vinculados a sua conta.';
 
 // Entry
-$_['entry_firstname']    = 'Nome';
+$_['entry_firstname']    = 'Razão Social/Nome';
 $_['entry_lastname']     = 'Sobrenome';
 $_['entry_company']      = 'Referência';
 $_['entry_address_1']    = 'Endereço';

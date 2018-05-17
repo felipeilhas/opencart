@@ -1,13 +1,13 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	color: #666; /* Altera a cor da fonte dos produtos e descri��o */
+	color: #000000; /* Altera a cor da fonte dos produtos e descricao */
 	font-size: 12px;
 	line-height: 20px;
 	width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
-	color: #444; /* Altera cor valor, nome, e calculo do frete */
+	color: #F36F2D; /* Altera cor valor, nome, e calculo do frete */
 }
 /* default font size */
 .fa {
@@ -33,10 +33,10 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #23a1d1; /* Altera cor nome da loja */
+	color: #F36F2D; /* Altera cor nome da loja */
 }
 a:hover {
-	text-decoration: none;
+	text-decoration:#000000;
 }
 legend {
 	font-size: 18px;
@@ -73,14 +73,14 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #FF4500; /*cor laranja*/
+	background-color: #F36F2D; /*cor laranja*/
 	/* background-image: linear-gradient(to bottom, #23a1d1, #1f90bb); */
 	background-repeat: repeat-x;
 }
 /* top */
 #top {
 	background-color: #EEEEEE; /* cor top */	
-	border-bottom: 1px solid #FF4500; /* cor borda */
+	border-bottom: 1px solid #F36F2D; /* cor borda */
 	padding: 4px 0px 3px 0;
 	margin: 0 0 20px 0;
 	min-height: 40px;
@@ -101,12 +101,12 @@ div.required .control-label:before {
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
-	color: #FF4500; /* texto topo */
+	color: #F36F2D; /* texto topo */
 	text-shadow: 0 1px 0 #FFF;
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
-	color: #000000; /* sele��o do menu */
+	color: #000000; /* selecao do menu */
 }
 #top-links .dropdown-menu a {
 	text-shadow: none;
@@ -150,7 +150,7 @@ div.required .control-label:before {
 #cart > .btn {
 	font-size: 12px;
 	line-height: 18px;
-	color: #FFF; /*Cor fonte carrinho*/
+	color: #FFFFFF; /*Cor fonte carrinho*/
 }
 #cart.open > .btn {
 	background-image: none;
@@ -192,10 +192,10 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #FF4500;
+	background-color: #F36F2D;
 	/* background-image: linear-gradient(to bottom, #23a1d1, #1f90bb); */
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: none;
 	min-height: 40px;
 }
 #menu .nav > li > a {
@@ -261,10 +261,10 @@ div.required .control-label:before {
 	color: #FFF;
 	padding: 2px 18px;
 	float: right;
-	background-color: #229ac8;
+	/*background-color: #229ac8;
 	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: #1f90bb #1f90bb #145e7a;*/
 }
 #menu .btn-navbar:hover, #menu .btn-navbar:focus, #menu .btn-navbar:active, #menu .btn-navbar.disabled, #menu .btn-navbar[disabled] {
 	color: #ffffff;
@@ -313,7 +313,7 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #FF4500;  /*Altera a cor do roda p�*/
+	background-color: #F36F2D;  /*Altera a cor do roda pe*/
 	border-top: 1px solid #ddd;
 	color: #e2e2e2;
 }
@@ -418,13 +418,13 @@ footer h5 {
 .btn-primary {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #F36F2D;
+	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	/*border-color: #1f90bb #1f90bb #145e7a;*/
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background-color: #1f90bb;
+	background-color: #0709B2;
 	background-position: 0 -15px;
 }
 .btn-warning {
@@ -441,10 +441,10 @@ footer h5 {
 .btn-danger {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #da4f49;
-	background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
+	background-color: #F36F2D;
+	/*background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);*/
 	background-repeat: repeat-x;
-	border-color: #bd362f #bd362f #802420;
+	/*border-color: #bd362f #bd362f #802420;*/
 }
 .btn-danger:hover, .btn-danger:active, .btn-danger.active, .btn-danger.disabled, .btn-danger[disabled] {
 	box-shadow: inset 0 1000px 0 rgba(0, 0, 0, 0.1);
@@ -463,10 +463,10 @@ footer h5 {
 .btn-info {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #df5c39;
-	background-image: linear-gradient(to bottom, #e06342, #dc512c);
+	background-color: #F36F2D;
+	/*background-image: linear-gradient(to bottom, #e06342, #dc512c);
 	background-repeat: repeat-x;
-	border-color: #dc512c #dc512c #a2371a;
+	border-color: #dc512c #dc512c #a2371a;*/
 }
 .btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
 	background-image: none;
@@ -486,10 +486,10 @@ footer h5 {
 .btn-inverse {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #363636;
-	background-image: linear-gradient(to bottom, #444444, #222222);
+	background-color: #F36F2D;
+	/*background-image: linear-gradient(to bottom, #444444, #222222);*/
 	background-repeat: repeat-x;
-	border-color: #222222 #222222 #000000;
+	/*border-color: #222222 #222222 #000000;*/
 }
 .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
 	background-color: #222222;

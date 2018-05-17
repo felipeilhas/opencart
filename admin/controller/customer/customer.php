@@ -960,7 +960,7 @@ class ControllerCustomerCustomer extends Controller {
 			$this->error['firstname'] = $this->language->get('error_firstname');
 		}
 
-		if ((utf8_strlen($this->request->post['lastname']) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
+		if ((utf8_strlen($this->request->post['lastname']) <0) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
 			$this->error['lastname'] = $this->language->get('error_lastname');
 		}
 
@@ -1013,7 +1013,7 @@ class ControllerCustomerCustomer extends Controller {
 					$this->error['address'][$key]['firstname'] = $this->language->get('error_firstname');
 				}
 
-				if ((utf8_strlen($value['lastname']) < 1) || (utf8_strlen($value['lastname']) > 32)) {
+				if ((utf8_strlen($value['lastname']) < 0) || (utf8_strlen($value['lastname']) > 32)) {
 					$this->error['address'][$key]['lastname'] = $this->language->get('error_lastname');
 				}
 
